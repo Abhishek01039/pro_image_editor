@@ -405,11 +405,7 @@ class ContentRecorderController {
         child: repaintBoundary,
       ),
       configuration: ViewConfiguration(
-        // size: logicalSize,
-        logicalConstraints: BoxConstraints(
-          maxWidth: logicalSize.width,
-          maxHeight: logicalSize.height,
-        ),
+        size: logicalSize,
         devicePixelRatio: 1.0,
       ),
     );
